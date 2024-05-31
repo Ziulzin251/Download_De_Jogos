@@ -16,6 +16,14 @@
         height: 500px;
     }
 
+    footer{
+        height: 60px;
+    }
+
+    footer > h4{
+        padding-top: 18px;
+    }
+
 /*Jogos
 ----------------------------*/
 

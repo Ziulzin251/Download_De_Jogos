@@ -2,6 +2,9 @@
 document.body.style.backgroundImage = 'url(imagens/Background/Forager.jpg)'
 document.body.style.backgroundColor = 'black'
 
+//Aviso
+Aviso()
+
 //Barra Lateral Inicial
 document.getElementById('item-lateral').classList.add('forager-lateral')
 document.getElementById('item-lateral2').classList.add('forager-lateral')
@@ -14,6 +17,9 @@ document.getElementById('item-lateral6').classList.add('forager-lateral')
 var Nav = document.getElementById('principal')
 var Rodape = document.getElementById('rodape')
 
+var Largura = 0
+var Altura = 0
+
 var ItemLateral = document.getElementById('item-lateral')
 var ItemLateral2 = document.getElementById('item-lateral2')
 var ItemLateral3 = document.getElementById('item-lateral3')
@@ -22,6 +28,19 @@ var ItemLateral5 = document.getElementById('item-lateral5')
 var ItemLateral6 = document.getElementById('item-lateral6')
 
 var x = 0
+var y = 0
+
+//Função >> aviso telefone
+function Aviso(){
+    Largura = window.innerWidth
+    Altura = window.innerHeight
+
+    if(Largura <= 575.98 && y == 0){
+        y++
+
+        window.alert('Caso você esteja no telefone, ative a opção: "Para computador." Para uma melhor experiência.')
+    }
+}
 
 //Função >> muda o estilo de acorda que passa de jogo
 function FundoVai(){
@@ -182,7 +201,7 @@ function FundoVem(){
             break
         case 1:
             //Fundo
-            document.body.style.backgroundImage = 'url(imagens/Jogos/Reventure.jpg)'
+            document.body.style.backgroundImage = 'url(imagens/Background/Reventure.jpg)'
             break
         case 2:
             //Fundo

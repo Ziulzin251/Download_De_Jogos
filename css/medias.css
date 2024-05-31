@@ -1,0 +1,235 @@
+@media (max-width: 575.98px) {
+
+    #home{
+        margin-top: 10px;
+    }
+
+    div#carousel{
+        box-shadow: none;
+    }
+
+/*Jogos
+----------------------------*/
+
+    div.jogo{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Forager.png);
+    }
+
+    div.jogo2{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Reventure.png);
+    }
+
+    div.jogo3{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Punch.png);
+    }
+
+    div.jogo4{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Stardew.png);
+    }
+
+    div.jogo5{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Grave.png);
+    }
+
+    div.jogo6{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Happy.png);
+    }
+
+/*Metroid
+----------------------------*/
+
+    div.metro{
+        width: 420px;   
+        background: url(../imagens/Fundos_Mobile/mobile_Hollow.png); 
+    }
+
+    div.metro2{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Messenger.png); 
+    }
+
+/*Roguelikes
+----------------------------*/
+
+    div.roguelike{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Dead.png); 
+    }
+
+    div.roguelike2{
+        width: 420px;
+        background: url(../imagens/Fundos_Mobile/mobile_Moon.png);
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #home{
+        margin-top: 10px;
+    }
+
+/*Jogos
+----------------------------*/
+
+    div.jogo{
+        width: 420px;
+        background-position: left;
+    }
+
+    div.jogo2{
+        width: 420px;
+    }
+
+    div.jogo3{
+        width: 420px;
+    }
+
+    div.jogo4{
+        width: 420px;
+    }
+
+    div.jogo5{
+        width: 420px;
+    }
+
+    div.jogo6{
+        width: 420px;
+        background-position: center;
+    }
+
+/*Metroid
+----------------------------*/
+
+    div.metro{
+        width: 420px;    
+    }
+
+    div.metro2{
+        width: 420px;
+    }
+
+/*Roguelike
+----------------------------*/
+
+    div.roguelike{
+        width: 420px;
+    }
+
+    div.roguelike2{
+        width: 420px;
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*Jogos
+----------------------------*/
+
+    div.jogo{
+        width: 570px;
+    }
+
+    div.jogo2{
+        width: 570px;
+    }
+
+    div.jogo3{
+        width: 570px;
+    }
+
+    div.jogo4{
+        width: 570px;
+    }
+
+    div.jogo5{
+        width: 570px;
+    }
+
+    div.jogo6{
+        width: 570px;
+    }
+
+/*Metroid
+----------------------------*/
+
+    div.metro{
+        width: 570px;
+    }
+
+    div.metro2{
+        width: 570px;
+    }
+
+/*Roguelikes
+----------------------------*/
+
+    div.roguelike{
+        width: 570px;
+    }
+
+    div.roguelike2{
+        width: 570px;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*Jogos
+----------------------------*/
+
+    div.jogo{
+        width: 770px;
+    }
+
+    div.jogo2{
+        width: 770px;
+    }
+
+    div.jogo3{
+        width: 770px;
+    }
+
+    div.jogo4{
+        width: 770px;
+    }
+
+    div.jogo5{
+        width: 770px;
+    }
+
+    div.jogo6{
+        width: 770px;
+    }
+
+/*Metroid
+----------------------------*/
+
+    div.metro{
+        width: 770px;
+    }
+
+    div.metro2{
+        width: 770px;
+    }
+
+/*Roguelikes
+----------------------------*/
+
+    div.roguelike{
+        width: 770px;
+    }
+
+    div.roguelike2{
+        width: 770px;
+    }
+
+}

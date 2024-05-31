@@ -1,0 +1,142 @@
+/*Classes
+----------------------*/
+.forager, .reven, .punch, .stardew, .hollow, .messenger, .dead, .moon{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.509);
+}
+
+.forager{
+    background-color: #63B6BF;
+    border-bottom: 1px solid #A63860;
+    border-top: 1px solid #A63860;
+}
+
+.reven{
+    background-color: #494373;
+    border-bottom: 1px solid #D9AD29;
+    border-top: 1px solid #D9AD29;
+}
+
+.punch{
+    background-color: #BF1534;
+    border-bottom: 1px solid #F2E4E4;
+    border-top: 1px solid #F2E4E4;
+}
+
+.stardew{
+    background-color: #0F0240;
+    border-bottom: 1px solid #F29F05;
+    border-top: 1px solid #F29F05;
+}
+
+.grave{
+    background-color: #010326;
+    border-bottom: 1px solid #8C1A0F;
+    border-top: 1px solid #8C1A0F;
+}
+
+.happy{
+    background-color: black;
+    border-bottom: 1px solid #F23D4C;
+    border-top: 1px solid #F23D4C;
+}
+
+/*Classes - Metroid
+----------------------*/
+
+.hollow{
+    background-color: #0D0D0D;
+    border-bottom: 1px solid #F2E4E4;
+    border-top: 1px solid #F2E4E4;
+}
+
+.messenger{
+    background-color: #3321A6;
+    border-bottom: 1px solid #05F2DB;
+    border-top: 1px solid #05F2DB;
+}
+
+/*Classes - Roguelikes
+----------------------*/
+.dead{
+    background-color: #0B0930;
+    border-bottom: 1px solid #A93327;
+    border-top: 1px solid #A93327;
+}
+
+.moon{
+    background-color: #038C65;
+    border-bottom: 1px solid #071526;
+    border-top: 1px solid #071526;
+}
+
+/*Classes Laterais
+----------------------*/
+.forager-lateral, .reven-lateral, .punch-lateral, .stardew-lateral, .hollow-lateral, .messenger-lateral, .dead-lateral, .moon-lateral{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.509);
+}
+
+.forager-lateral{
+    background-color: #63B6BF;
+    border-bottom: 1px solid #A63860;
+    border-right: 1px solid #A63860;        
+}
+
+.reven-lateral{
+    background-color: #494373;
+    border-bottom: 1px solid #D9AD29;
+    border-right: 1px solid #D9AD29;
+}
+
+.punch-lateral{
+    background-color: #BF1534;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;    
+}
+
+.stardew-lateral{
+    background-color: #0F0240;
+    border-bottom: 1px solid #F29F05;
+    border-right: 1px solid #F29F05;    
+}
+
+.grave-lateral{
+    background-color: #010326;
+    border-bottom: 1px solid #8C1A0F;
+    border-right: 1px solid #8C1A0F;
+}
+
+.happy-lateral{
+    background-color: black;
+    border-bottom: 1px solid #F23D4C;
+    border-right: 1px solid #F23D4C;   
+}
+
+/*Classes - Metroid
+----------------------*/
+
+.hollow-lateral{
+    background-color: #0D0D0D;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;    
+}
+
+.messenger-lateral{
+    background-color: #3321A6;
+    border-bottom: 1px solid #05F2DB;
+    border-right: 1px solid #05F2DB;    
+}
+
+/*Classes - Roguelikes
+----------------------*/
+.dead-lateral{
+    background-color: #0B0930;
+    border-bottom: 1px solid #A93327;
+    border-right: 1px solid #A93327;    
+}
+
+.moon-lateral{
+    background-color: #038C65;
+    border-bottom: 1px solid #071526;
+    border-right: 1px solid #071526;   
+}
+

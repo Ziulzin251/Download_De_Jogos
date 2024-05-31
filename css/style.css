@@ -1,0 +1,107 @@
+/*Gerais
+----------------------*/
+
+html{
+    height: 100%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    /**/
+
+    transition: all 0.4s;
+}
+
+div{
+    border-radius: 25px;
+}
+
+nav{
+    padding-left: 0px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+li{
+    cursor: auto;
+}
+
+li > a{
+    cursor: pointer;
+}
+
+/*Rodapé
+----------------------*/
+
+footer{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: no;
+    height: 40px;
+    background-color: #343A40;
+}
+
+footer h4{
+    font-size: 18px;
+    padding-top: 9px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+/*Ids
+----------------------*/
+
+#home{
+    margin-top: 20px;
+}
+
+div#carousel{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.503);
+}
+
+div.carousel-caption > a{
+    color: white;
+    text-decoration: none;
+}
+
+nav#lista-lateral{
+    float: left;
+    width: 130px;
+    font-size: 20px;
+}
+
+nav#lista-lateral > ul > li{
+    text-align: center;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #9A9DA0;
+}
+
+/*Classes
+----------------------*/
+.divisor{
+    width: 1px;
+    background-color: white;
+    margin: 12px 0px 12px 5px;
+}
+
+/*Hovers
+----------------------*/
+nav#lista-lateral > ul > li:hover{
+    color: #C2CDC6;
+}

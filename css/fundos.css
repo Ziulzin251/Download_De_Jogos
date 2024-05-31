@@ -1,0 +1,91 @@
+/*FUNDOS
+----------------------------*/
+
+div.jogo{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/Jogos/Forager.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+div.jogo2{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/Jogos/Reventure.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+div.jogo3{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/Jogos/Punch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.jogo4{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/Jogos/Stardew.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.jogo5{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/Jogos/Grave.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+div.jogo6{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/Jogos/Happy.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+/*Metroid
+----------------------------*/
+
+div.metro{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/metroidvania/Hollow.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.metro2{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/metroidvania/Messenger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Roguelikes
+----------------------------*/
+
+div.roguelike{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/roguelikes/Dead_Cells.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+div.roguelike2{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/roguelikes/Moonlighter.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Rodape
+----------------------------*/

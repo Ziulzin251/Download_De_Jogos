@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon/pasta_jogos_favicon.png" type="image/x-icon">
+
+    <!-- Style Regular CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fundos.css">
+    <link rel="stylesheet" href="css/classes_fundos.css">
+    <link rel="stylesheet" href="css/medias.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Bootstrap4/css/bootstrap.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="Otimizacoes/Normalize_Css.css">
+
+    <!-- HTML5SHIV -->
+    <!--[if lt IE 9]>
+	    <script src="_Otimizacoes/html5shiv.js"></script>
+    <![endif]-->
+
+    <title>Jogos</title>
+  </head>
+  <body>
+
+    <header>
+      
+      <nav id="principal" class="navbar navbar-expand-sm forager"> <!--Nav Páginas-->
+        <ul class="navbar-nav ">
+          <li class="nav-item ml-2">
+            <a class="nav-link text-white" href="#">Jogos</a>
+          </li>
+
+          <li class="nav-item divisor"></li>
+
+          <li class="nav-item ml-2">
+            <a class="nav-link text-white" href="Html/metroidvania.html">Metroidvania</a>
+          </li>
+
+          <li class="nav-item divisor"></li>
+
+          <li class="nav-item ml-2">
+            <a class="nav-link text-white" href="Html/roguelikes.html">Roguelikes</a>
+          </li>
+        </ul>
+      </nav> <!--Fim Nav Páginas-->
+
+    </header>
+  
+    <nav id="lista-lateral" class="d-none d-md-block"> <!--Nav Jogos-->
+      <ul>
+        <li id="item-lateral">
+          <a class="text-white" onclick="FundoForager()" data-target="#carousel" data-slide-to="0">Forager</a>
+        </li>
+        <li id="item-lateral2">
+          <a class="text-white" onclick="FundoReven()" data-target="#carousel" data-slide-to="1">Reventure</a>
+        </li>
+        <li id="item-lateral3">
+          <a class="text-white" onclick="FundoPunch()" data-target="#carousel" data-slide-to="2">Punch Club</a>
+        </li>
+        <li id="item-lateral4">
+          <a class="text-white" onclick="FundoStardew()" data-target="#carousel" data-slide-to="3">Stardew <br>Valley</a>
+        </li>
+        <li id="item-lateral5">
+          <a class="text-white" onclick="FundoGrave()" data-target="#carousel" data-slide-to="4">Graveyard Keeper</a>
+        </li>
+        <li id="item-lateral6">
+          <a class="text-white" onclick="FundoHappy()" data-target="#carousel" data-slide-to="5">Happy Room</a>
+        </li>
+      </ul>
+    </nav> <!--Fim Nav Jogos-->
+
+    <div id="home" class="d-flex"> <!--Jogos-->
+      <div class="container align-self-center">
+        <div class="row">
+          <div class="col-10 m-auto">
+
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false"><!--COMEÇO Carousel-->
+
+              <!--Indicadores-->
+              <ol class="carousel-indicators">
+                <li onclick="FundoForager()" class="active" data-target="#carousel" data-slide-to="0"></li>
+                <li onclick="FundoReven()" data-target="#carousel" data-slide-to="1"></li>
+                <li onclick="FundoPunch()" data-target="#carousel" data-slide-to="2"></li>
+                <li onclick="FundoStardew()" data-target="#carousel" data-slide-to="3"></li>
+                <li onclick="FundoGrave()" data-target="#carousel" data-slide-to="4"></li>
+                <li onclick="FundoHappy()" data-target="#carousel" data-slide-to="5"></li>
+              </ol>
+
+              <div class="carousel-inner"><!--COMEÇO Inner-->
+
+                <div class="carousel-item active">
+                  <div class="jogo jogos"></div>
+
+                  <div class="carousel-caption">
+                    <a href="https://mega.nz/file/JIokUSxB#nfBYOFD1UxpnFe-kfo1FtQeVVpy8rM2O5YoSykzg14Q" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="jogo2 jogos"></div>
+
+                  <div class="carousel-caption">
+                    <a href="https://mega.nz/file/9VpgDaYT#Tnybw9ceKzcriLIKp8kh-n1QyFoimbVJOTCtmtJQeCI" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                  </div>
+                  
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="jogo3 jogos"></div>
+
+                  <div class="carousel-caption">
+                    <a href="https://mega.nz/file/4NoxBTjR#tiwkplrq25h-Wtl--HdvacxXEoc6hGp9-r44xWsz3zI" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="jogo4 jogos"></div>
+
+                  <div class="carousel-caption">
+                    <a href="https://mega.nz/file/xcoklYZB#ZG2Ox7BuppORWj9DTNUbRXnWMWD159qqMrnsJ3ArVFc" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="jogo5 jogos"></div>
+
+                  <div class="carousel-caption">
+                    <a href="https://mega.nz/file/dJhlHIzC#XBWOSNeCc2Q1E8_rk__ii6epIHxzHWq1gduIEzlbW18" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+                  <div class="jogo6 jogos"></div>
+
+                  <div class="carousel-caption">
+                    <a href="https://mega.nz/file/cMI1CaoY#-43kWlG2H9DOKASyHY6zCSB-qUKBGCTW_ttjBeXFRkY" target="_blank"><button onfocus="corBotao()" onblur="botaoNormal()" class="btn btn-primary btn-lg btn-block" type="button">DOWNLOAD</button></a>
+                  </div>
+
+                </div>
+
+              </div><!--FIM Inner-->
+
+              <!--CONTROLES-->
+
+              <a onclick="FundoVem()" href="#carousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+
+              <a onclick="FundoVai()" href="#carousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
+              <!--FIM CONTROLES-->
+            </div><!--FIM Carousel-->
+            
+      
+          </div>
+        </div>
+      </div>
+    </div> <!--Fim Jogos-->
+
+    <div style="height: 75px; text-indent: -5000px;">.</div>
+
+    <footer id="rodape" class="fixed-bottom forager">
+      <h4>Site criado por <a href="https://github.com/Ziulzin251" target="_blank">Ziulzin251</a> &copy;</h4>
+    </footer>
+    
+    <script src="Js/botoes.js"></script>
+    <script src="Js/fundos.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

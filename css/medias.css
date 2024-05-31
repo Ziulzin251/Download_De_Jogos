@@ -8,6 +8,14 @@
         box-shadow: none;
     }
 
+    div.row{
+        height: 600px;
+    }
+
+    div.jogos{
+        height: 550px;
+    }
+
 /*Jogos
 ----------------------------*/
 

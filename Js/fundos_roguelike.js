@@ -117,6 +117,9 @@ function FundoVem(){
 
 //Botões embaixo de Download + Laterais
 function FundoDead(){
+    //Variaveis
+    x = 0
+
     //Fundo
     document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Dead_Cells.jpg)'
 
@@ -138,6 +141,9 @@ function FundoDead(){
 }
 
 function FundoMoon(){
+    //Variaveis
+    x = 1
+
     //Fundo
     document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Moonlighter.jpg)'
 

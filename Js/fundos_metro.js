@@ -117,6 +117,9 @@ function FundoVem(){
 
 //Botões embaixo de Download + Laterais
 function FundoHollow(){
+    //Variaveis
+    x = 0
+
     //Fundo
     document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Hollow.jpg)'
 
@@ -138,6 +141,9 @@ function FundoHollow(){
 }
 
 function FundoMessenger(){
+    //Variaveis
+    x = 1
+
     //Fundo
     document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Messenger.jpg)'
 

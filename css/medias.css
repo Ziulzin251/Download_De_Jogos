@@ -70,6 +70,10 @@
         background: url(../imagens/Fundos_Mobile/mobile_Messenger.png); 
     }
 
+    div.metro3{
+        width: 420px;
+    }
+
 /*Roguelikes
 ----------------------------*/
 
@@ -118,6 +122,7 @@
     div.jogo6{
         width: 420px;
         background-position: center;
+        background: url(../imagens/Background_Metro/Ori.jpg);
     }
 
 /*Metroid
@@ -128,6 +133,10 @@
     }
 
     div.metro2{
+        width: 420px;
+    }
+
+    div.metro3{
         width: 420px;
     }
 
@@ -184,6 +193,10 @@
         width: 570px;
     }
 
+    div.metro3{
+        width: 570px;
+    }
+
 /*Roguelikes
 ----------------------------*/
 
@@ -234,6 +247,10 @@
     }
 
     div.metro2{
+        width: 770px;
+    }
+
+    div.metro3{
         width: 770px;
     }
 

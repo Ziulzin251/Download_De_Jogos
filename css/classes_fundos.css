@@ -55,6 +55,12 @@
     border-top: 1px solid #05F2DB;
 }
 
+.ori{
+    background-color: #0487D9;
+    border-bottom: 1px solid #05F2DB;
+    border-top: 1px solid #05F2DB;
+}
+
 /*Classes - Roguelikes
 ----------------------*/
 .dead{
@@ -124,6 +130,12 @@
     background-color: #3321A6;
     border-bottom: 1px solid #05F2DB;
     border-right: 1px solid #05F2DB;    
+}
+
+.ori-lateral{
+    background-color: #0487D9;
+    border-bottom: 1px solid #05F2DB;
+    border-right: 1px solid #05F2DB;
 }
 
 /*Classes - Roguelikes

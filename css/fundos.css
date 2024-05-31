@@ -68,6 +68,14 @@ div.metro2{
     background-position: center;
 }
 
+div.metro3{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/metroidvania/Ori.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /*Roguelikes
 ----------------------------*/
 

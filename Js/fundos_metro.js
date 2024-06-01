@@ -5,6 +5,9 @@ document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Hollow.jp
 document.getElementById('item-lateral').classList.add('hollow-lateral')
 document.getElementById('item-lateral2').classList.add('hollow-lateral')
 document.getElementById('item-lateral3').classList.add('hollow-lateral')
+document.getElementById('item-lateral4').classList.add('hollow-lateral')
+document.getElementById('item-lateral5').classList.add('hollow-lateral')
+document.getElementById('item-lateral6').classList.add('hollow-lateral')
 
 //Variaveis
 var Nav = document.getElementById('principal')
@@ -13,6 +16,9 @@ var Rodape = document.getElementById('rodape')
 var ItemLateral = document.getElementById('item-lateral')
 var ItemLateral2 = document.getElementById('item-lateral2')
 var ItemLateral3 = document.getElementById('item-lateral3')
+var ItemLateral4 = document.getElementById('item-lateral4')
+var ItemLateral5 = document.getElementById('item-lateral5')
+var ItemLateral6 = document.getElementById('item-lateral6')
 
 
 var x = 0

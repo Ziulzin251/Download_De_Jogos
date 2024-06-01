@@ -76,6 +76,30 @@ div.metro3{
     background-position: center;
 }
 
+div.metro4{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/metroidvania/Rain.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+div.metro5{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/metroidvania/Blas.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+div.metro6{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/metroidvania/Blood.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
 /*Roguelikes
 ----------------------------*/
 

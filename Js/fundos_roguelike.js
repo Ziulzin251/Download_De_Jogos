@@ -247,17 +247,33 @@ function FundoMoon(){
 }
 
 function FundoEnter(){
-    
+    //Variaveis
+    x = 2
+
+    //Fundo
+    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Enter.jpg)'    
 }
 
 function FundoDark(){
-    
+    //Variaveis
+    x = 3
+
+    //Fundo
+    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Darkest.jpg)'    
 }
 
 function FundoMana(){
-    
+    //Variaveis
+    x = 4
+
+    //Fundo
+    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Mana.jpg)'    
 }
 
 function FundoNoita(){
-    
+    //Variaveis
+    x = 5
+
+    //Fundo
+    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Noita.jpg)'    
 }

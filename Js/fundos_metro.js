@@ -44,6 +44,18 @@ function FundoVai(){
             //Fundo
             document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Ori.jpg)'
             break
+        case 3:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Rain.jpg)'
+            break
+        case 4:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Blas.jpg)'
+            break
+        case 5:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Blood.jpg)'
+            break
     }
 
     switch(x){
@@ -83,6 +95,18 @@ function FundoVai(){
             //Rodape
             Rodape.classList.toggle('ori')
             break
+        case 2:
+            //Barra de Navegação
+            Nav.classList.toggle('ori')
+
+            //Listas Laterais
+            ItemLateral.classList.toggle('ori-lateral')
+            ItemLateral2.classList.toggle('ori-lateral')
+            ItemLateral3.classList.toggle('ori-lateral')
+
+            //Rodape
+            Rodape.classList.toggle('ori')
+            break
     }
 }
 
@@ -106,6 +130,18 @@ function FundoVem(){
         case 2:
             //Fundo_Metro
             document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Ori.jpg)'
+            break
+        case 3:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Rain.jpg)'
+            break
+        case 4:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Blas.jpg)'
+            break
+        case 5:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Metro/Blood.jpg)'
             break
     }
 
@@ -249,3 +285,17 @@ function FundoOri(){
     Rodape.classList.remove('hollow', 'messenger')
     Rodape.classList.add('ori')
 }
+
+function FundoRain(){
+
+}
+
+function FundoBlas(){
+    
+}
+
+
+function FundoBlood(){
+    
+}
+

@@ -61,6 +61,24 @@
     border-top: 1px solid #05F2DB;
 }
 
+.rain{
+    background-color: #027368;
+    border-bottom: 1px solid #010440;
+    border-top: 1px solid #010440;
+}
+
+.blas{
+    background-color: #444359;
+    border-bottom: 1px solid #D9BD6A;
+    border-top: 1px solid #D9BD6A;
+}
+
+.blood{
+    background-color: #8C0327;
+    border-bottom: 1px solid #F238C1;
+    border-top: 1px solid #F238C1;
+}
+
 /*Classes - Roguelikes
 ----------------------*/
 .dead{

@@ -352,18 +352,17 @@ function FundoDead(){
     //Fundo
     document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Dead_Cells.jpg)'
 
-    //Remover classes
-    Nav.classList.remove('moon')
-
-    //Lista Lateral + Navegação
+    //Barra de Navegação
+    Nav.classList.remove('moon', 'enter', 'dark', 'mana', 'noita')
     Nav.classList.add('dead')
 
-    ItemLateral.classList.remove('moon-lateral')
-    ItemLateral2.classList.remove('moon-lateral')
-    ItemLateral3.classList.remove('moon-lateral')
-    ItemLateral4.classList.remove('moon-lateral')
-    ItemLateral5.classList.remove('moon-lateral')
-    ItemLateral6.classList.remove('moon-lateral')
+    //Listas Laterais
+    ItemLateral.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral2.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral3.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral4.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral5.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral6.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
 
     ItemLateral.classList.add('dead-lateral')
     ItemLateral2.classList.add('dead-lateral')
@@ -373,7 +372,7 @@ function FundoDead(){
     ItemLateral6.classList.add('dead-lateral')
 
     //Rodape
-    Rodape.classList.remove('moon')
+    Rodape.classList.remove('moon', 'enter', 'dark', 'mana', 'noita')
     Rodape.classList.add('dead')
 }
 
@@ -384,18 +383,17 @@ function FundoMoon(){
     //Fundo
     document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Moonlighter.jpg)'
 
-    //Remover classes
-    Nav.classList.remove('dead')
-
-    //Lista Lateral + Navegação
+    //Barra de Navegação
+    Nav.classList.remove('dead', 'enter', 'dark', 'mana', 'noita')
     Nav.classList.add('moon')
 
-    ItemLateral.classList.remove('dead-lateral')  
-    ItemLateral2.classList.remove('dead-lateral')
-    ItemLateral3.classList.remove('dead-lateral')
-    ItemLateral4.classList.remove('dead-lateral')
-    ItemLateral5.classList.remove('dead-lateral')
-    ItemLateral6.classList.remove('dead-lateral')
+    //Listas Laterais
+    ItemLateral.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral2.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral3.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral4.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral5.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral6.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
 
     ItemLateral.classList.add('moon-lateral')
     ItemLateral2.classList.add('moon-lateral')
@@ -405,7 +403,7 @@ function FundoMoon(){
     ItemLateral6.classList.add('moon-lateral')
 
     //Rodape
-    Rodape.classList.remove('dead')
+    Rodape.classList.remove('dead', 'enter', 'dark', 'mana', 'noita')
     Rodape.classList.add('moon')
 }
 
@@ -414,7 +412,30 @@ function FundoEnter(){
     x = 2
 
     //Fundo
-    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Enter.jpg)'    
+    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Enter.jpg)'
+    
+    //Barra de Navegação
+    Nav.classList.remove('dead', 'moon', 'dark', 'mana', 'noita')
+    Nav.classList.add('enter')
+
+    //Listas Laterais
+    ItemLateral.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral2.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral3.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral4.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral5.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral6.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+
+    ItemLateral.classList.add('enter-lateral')
+    ItemLateral2.classList.add('enter-lateral')
+    ItemLateral3.classList.add('enter-lateral')
+    ItemLateral4.classList.add('enter-lateral')
+    ItemLateral5.classList.add('enter-lateral')
+    ItemLateral6.classList.add('enter-lateral')
+
+    //Rodape
+    Rodape.classList.remove('dead', 'moon', 'dark', 'mana', 'noita')
+    Rodape.classList.add('enter')
 }
 
 function FundoDark(){
@@ -422,7 +443,30 @@ function FundoDark(){
     x = 3
 
     //Fundo
-    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Darkest.jpg)'    
+    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Darkest.jpg)'
+    
+    //Barra de Navegação
+    Nav.classList.remove('dead', 'moon', 'enter', 'mana', 'noita')
+    Nav.classList.add('dark')
+
+    //Listas Laterais
+    ItemLateral.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral2.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral3.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral4.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral5.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+    ItemLateral6.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+
+    ItemLateral.classList.add('dark-lateral')
+    ItemLateral2.classList.add('dark-lateral')
+    ItemLateral3.classList.add('dark-lateral')
+    ItemLateral4.classList.add('dark-lateral')
+    ItemLateral5.classList.add('dark-lateral')
+    ItemLateral6.classList.add('dark-lateral')
+
+    //Rodape
+    Rodape.classList.remove('dead', 'moon', 'enter', 'mana', 'noita')
+    Rodape.classList.add('dark')
 }
 
 function FundoMana(){
@@ -430,7 +474,30 @@ function FundoMana(){
     x = 4
 
     //Fundo
-    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Mana.jpg)'    
+    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Mana.jpg)'
+    
+    //Barra de Navegação
+    Nav.classList.remove('dead', 'moon', 'enter', 'dark', 'noita')
+    Nav.classList.add('mana')
+
+    //Listas Laterais
+    ItemLateral.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+    ItemLateral2.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+    ItemLateral3.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+    ItemLateral4.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+    ItemLateral5.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+    ItemLateral6.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+
+    ItemLateral.classList.add('mana-lateral')
+    ItemLateral2.classList.add('mana-lateral')
+    ItemLateral3.classList.add('mana-lateral')
+    ItemLateral4.classList.add('mana-lateral')
+    ItemLateral5.classList.add('mana-lateral')
+    ItemLateral6.classList.add('mana-lateral')
+
+    //Rodape
+    Rodape.classList.remove('dead', 'moon', 'enter', 'dark', 'noita')
+    Rodape.classList.add('mana')
 }
 
 function FundoNoita(){
@@ -438,5 +505,28 @@ function FundoNoita(){
     x = 5
 
     //Fundo
-    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Noita.jpg)'    
+    document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Noita.jpg)'
+    
+    //Barra de Navegação
+    Nav.classList.remove('dead', 'moon', 'enter', 'dark', 'mana')
+    Nav.classList.add('noita')
+
+    //Listas Laterais
+    ItemLateral.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+    ItemLateral2.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+    ItemLateral3.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+    ItemLateral4.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+    ItemLateral5.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+    ItemLateral6.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+
+    ItemLateral.classList.add('noita-lateral')
+    ItemLateral2.classList.add('noita-lateral')
+    ItemLateral3.classList.add('noita-lateral')
+    ItemLateral4.classList.add('noita-lateral')
+    ItemLateral5.classList.add('noita-lateral')
+    ItemLateral6.classList.add('noita-lateral')
+
+    //Rodape
+    Rodape.classList.remove('dead', 'moon', 'enter', 'dark', 'mana')
+    Rodape.classList.add('noita')
 }

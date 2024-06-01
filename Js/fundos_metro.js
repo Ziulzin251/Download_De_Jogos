@@ -67,6 +67,9 @@ function FundoVai(){
             ItemLateral.classList.toggle('hollow-lateral')
             ItemLateral2.classList.toggle('hollow-lateral')
             ItemLateral3.classList.toggle('hollow-lateral')
+            ItemLateral4.classList.toggle('hollow-lateral')
+            ItemLateral5.classList.toggle('hollow-lateral')
+            ItemLateral6.classList.toggle('hollow-lateral')
 
             //Rodape
             Rodape.classList.toggle('hollow')
@@ -79,6 +82,9 @@ function FundoVai(){
             ItemLateral.classList.toggle('messenger-lateral')
             ItemLateral2.classList.toggle('messenger-lateral')
             ItemLateral3.classList.toggle('messenger-lateral')
+            ItemLateral4.classList.toggle('messenger-lateral')
+            ItemLateral5.classList.toggle('messenger-lateral')
+            ItemLateral6.classList.toggle('messenger-lateral')
 
             //Rodape
             Rodape.classList.toggle('messenger')
@@ -91,21 +97,57 @@ function FundoVai(){
             ItemLateral.classList.toggle('ori-lateral')
             ItemLateral2.classList.toggle('ori-lateral')
             ItemLateral3.classList.toggle('ori-lateral')
+            ItemLateral4.classList.toggle('ori-lateral')
+            ItemLateral5.classList.toggle('ori-lateral')
+            ItemLateral6.classList.toggle('ori-lateral')
 
             //Rodape
             Rodape.classList.toggle('ori')
             break
-        case 2:
+        case 3:
             //Barra de Navegação
-            Nav.classList.toggle('ori')
+            Nav.classList.toggle('rain')
 
             //Listas Laterais
-            ItemLateral.classList.toggle('ori-lateral')
-            ItemLateral2.classList.toggle('ori-lateral')
-            ItemLateral3.classList.toggle('ori-lateral')
+            ItemLateral.classList.toggle('rain-lateral')
+            ItemLateral2.classList.toggle('rain-lateral')
+            ItemLateral3.classList.toggle('rain-lateral')
+            ItemLateral4.classList.toggle('rain-lateral')
+            ItemLateral5.classList.toggle('rain-lateral')
+            ItemLateral6.classList.toggle('rain-lateral')
 
             //Rodape
-            Rodape.classList.toggle('ori')
+            Rodape.classList.toggle('rain')
+            break
+        case 4:
+            //Barra de Navegação
+            Nav.classList.toggle('blas')
+
+            //Listas Laterais
+            ItemLateral.classList.toggle('blas-lateral')
+            ItemLateral2.classList.toggle('blas-lateral')
+            ItemLateral3.classList.toggle('blas-lateral')
+            ItemLateral4.classList.toggle('blas-lateral')
+            ItemLateral5.classList.toggle('blas-lateral')
+            ItemLateral6.classList.toggle('blas-lateral')
+
+            //Rodape
+            Rodape.classList.toggle('blas')
+            break
+        case 5:
+            //Barra de Navegação
+            Nav.classList.toggle('blood')
+
+            //Listas Laterais
+            ItemLateral.classList.toggle('blood-lateral')
+            ItemLateral2.classList.toggle('blood-lateral')
+            ItemLateral3.classList.toggle('blood-lateral')
+            ItemLateral4.classList.toggle('blood-lateral')
+            ItemLateral5.classList.toggle('blood-lateral')
+            ItemLateral6.classList.toggle('blood-lateral')
+
+            //Rodape
+            Rodape.classList.toggle('blood')
             break
     }
 }

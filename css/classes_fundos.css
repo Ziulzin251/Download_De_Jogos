@@ -75,6 +75,30 @@
     border-top: 1px solid #071526;
 }
 
+.enter{
+    background-color: #150E40;
+    border-bottom: 1px solid #BB9878;
+    border-top: 1px solid #BB9878;
+}
+
+.dark{
+    background-color: #A61103;
+    border-bottom: 1px solid #400101;
+    border-top: 1px solid #400101;
+}
+
+.mana{
+    background-color: #400904;
+    border-bottom: 1px solid #F28705;
+    border-top: 1px solid #F28705;
+}
+
+.noita{
+    background-color: #011C40;
+    border-bottom: 1px solid #04BF33;
+    border-top: 1px solid #04BF33;
+}
+
 /*Classes Laterais
 ----------------------*/
 .forager-lateral, .reven-lateral, .punch-lateral, .stardew-lateral, .hollow-lateral, .messenger-lateral, .dead-lateral, .moon-lateral{
@@ -150,5 +174,29 @@
     background-color: #038C65;
     border-bottom: 1px solid #071526;
     border-right: 1px solid #071526;   
+}
+
+.enter-lateral{
+    background-color: #150E40;
+    border-bottom: 1px solid #BB9878;
+    border-right: 1px solid #BB9878;
+}
+
+.dark-lateral{
+    background-color: #A61103;
+    border-bottom: 1px solid #400101;
+    border-right: 1px solid #400101;
+}
+
+.mana-lateral{
+    background-color: #400904;
+    border-bottom: 1px solid #F28705;
+    border-right: 1px solid #F28705;
+}
+
+.noita-lateral{
+    background-color: #011C40;
+    border-bottom: 1px solid #04BF33;
+    border-right: 1px solid #04BF33;
 }
 

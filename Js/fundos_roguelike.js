@@ -60,18 +60,27 @@ function FundoVai(){
     switch(x){
         case 0:
             //Barra de Navegação
-            Nav.classList.toggle('dead')
+            Nav.classList.remove('moon', 'enter', 'dark', 'mana', 'noita')
+            Nav.classList.add('dead')
 
             //Listas Laterais
-            ItemLateral.classList.toggle('dead-lateral')
-            ItemLateral2.classList.toggle('dead-lateral')
-            ItemLateral3.classList.toggle('dead-lateral')
-            ItemLateral4.classList.toggle('dead-lateral')
-            ItemLateral5.classList.toggle('dead-lateral')
-            ItemLateral6.classList.toggle('dead-lateral')
+            ItemLateral.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral2.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral3.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral4.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral5.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral6.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+
+            ItemLateral.classList.add('dead-lateral')
+            ItemLateral2.classList.add('dead-lateral')
+            ItemLateral3.classList.add('dead-lateral')
+            ItemLateral4.classList.add('dead-lateral')
+            ItemLateral5.classList.add('dead-lateral')
+            ItemLateral6.classList.add('dead-lateral')
 
             //Rodape
-            Rodape.classList.toggle('dead')
+            Rodape.classList.remove('moon', 'enter', 'dark', 'mana', 'noita')
+            Rodape.classList.add('dead')
             break
         case 1:
             //Barra de Navegação
@@ -87,6 +96,66 @@ function FundoVai(){
 
             //Rodape
             Rodape.classList.toggle('moon')
+            break
+        case 2:
+            //Barra de Navegação
+            Nav.classList.toggle('enter')
+
+            //Listas Laterais
+            ItemLateral.classList.toggle('enter-lateral')
+            ItemLateral2.classList.toggle('enter-lateral')
+            ItemLateral3.classList.toggle('enter-lateral')
+            ItemLateral4.classList.toggle('enter-lateral')
+            ItemLateral5.classList.toggle('enter-lateral')
+            ItemLateral6.classList.toggle('enter-lateral')
+
+            //Rodape
+            Rodape.classList.toggle('enter')
+            break
+        case 3:
+            //Barra de Navegação
+            Nav.classList.toggle('dark')
+
+            //Listas Laterais
+            ItemLateral.classList.toggle('dark-lateral')
+            ItemLateral2.classList.toggle('dark-lateral')
+            ItemLateral3.classList.toggle('dark-lateral')
+            ItemLateral4.classList.toggle('dark-lateral')
+            ItemLateral5.classList.toggle('dark-lateral')
+            ItemLateral6.classList.toggle('dark-lateral')
+
+            //Rodape
+            Rodape.classList.toggle('dark')
+            break
+        case 4:
+            //Barra de Navegação
+            Nav.classList.toggle('mana')
+
+            //Listas Laterais
+            ItemLateral.classList.toggle('mana-lateral')
+            ItemLateral2.classList.toggle('mana-lateral')
+            ItemLateral3.classList.toggle('mana-lateral')
+            ItemLateral4.classList.toggle('mana-lateral')
+            ItemLateral5.classList.toggle('mana-lateral')
+            ItemLateral6.classList.toggle('mana-lateral')
+
+            //Rodape
+            Rodape.classList.toggle('mana')
+            break
+        case 5:
+            //Barra de Navegação
+            Nav.classList.toggle('noita')
+
+            //Listas Laterais
+            ItemLateral.classList.toggle('noita-lateral')
+            ItemLateral2.classList.toggle('noita-lateral')
+            ItemLateral3.classList.toggle('noita-lateral')
+            ItemLateral4.classList.toggle('noita-lateral')
+            ItemLateral5.classList.toggle('noita-lateral')
+            ItemLateral6.classList.toggle('noita-lateral')
+
+            //Rodape
+            Rodape.classList.toggle('noita')
             break
     }
 }
@@ -129,17 +198,16 @@ function FundoVem(){
     switch(x){
         case 0:
             //Barra de Navegação
-            Nav.classList.remove('moon')
+            Nav.classList.remove('moon', 'enter', 'dark', 'mana', 'noita')
             Nav.classList.add('dead')
 
             //Listas Laterais
-            ItemLateral.classList.remove('moon-lateral')
-            ItemLateral2.classList.remove('moon-lateral')
-            ItemLateral3.classList.remove('moon-lateral')
-            ItemLateral4.classList.remove('moon-lateral')
-            ItemLateral5.classList.remove('moon-lateral')
-            ItemLateral6.classList.remove('moon-lateral')
-
+            ItemLateral.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral2.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral3.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral4.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral5.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral6.classList.remove('moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
 
             ItemLateral.classList.add('dead-lateral')
             ItemLateral2.classList.add('dead-lateral')
@@ -148,23 +216,22 @@ function FundoVem(){
             ItemLateral5.classList.add('dead-lateral')
             ItemLateral6.classList.add('dead-lateral')
 
-
             //Rodape
-            Rodape.classList.remove('moon')
+            Rodape.classList.remove('moon', 'enter', 'dark', 'mana', 'noita')
             Rodape.classList.add('dead')
             break
         case 1:
             //Barra de Navegação
-            Nav.classList.remove('dead')
+            Nav.classList.remove('dead', 'enter', 'dark', 'mana', 'noita')
             Nav.classList.add('moon')
 
             //Listas Laterais
-            ItemLateral.classList.remove('dead-lateral')
-            ItemLateral2.classList.remove('dead-lateral')
-            ItemLateral3.classList.remove('dead-lateral')
-            ItemLateral4.classList.remove('dead-lateral')
-            ItemLateral5.classList.remove('dead-lateral')
-            ItemLateral6.classList.remove('dead-lateral')
+            ItemLateral.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral2.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral3.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral4.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral5.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral6.classList.remove('dead-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
 
             ItemLateral.classList.add('moon-lateral')
             ItemLateral2.classList.add('moon-lateral')
@@ -174,8 +241,104 @@ function FundoVem(){
             ItemLateral6.classList.add('moon-lateral')
 
             //Rodape
-            Rodape.classList.remove('dead')
+            Rodape.classList.remove('dead', 'enter', 'dark', 'mana', 'noita')
             Rodape.classList.add('moon')
+            break
+        case 2:
+            //Barra de Navegação
+            Nav.classList.remove('dead', 'moon', 'dark', 'mana', 'noita')
+            Nav.classList.add('enter')
+
+            //Listas Laterais
+            ItemLateral.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral2.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral3.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral4.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral5.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral6.classList.remove('dead-lateral', 'moon-lateral', 'dark-lateral', 'mana-lateral', 'noita-lateral')
+
+            ItemLateral.classList.add('enter-lateral')
+            ItemLateral2.classList.add('enter-lateral')
+            ItemLateral3.classList.add('enter-lateral')
+            ItemLateral4.classList.add('enter-lateral')
+            ItemLateral5.classList.add('enter-lateral')
+            ItemLateral6.classList.add('enter-lateral')
+
+            //Rodape
+            Rodape.classList.remove('dead', 'moon', 'dark', 'mana', 'noita')
+            Rodape.classList.add('enter')
+            break
+        case 3:
+            //Barra de Navegação
+            Nav.classList.remove('dead', 'moon', 'enter', 'mana', 'noita')
+            Nav.classList.add('dark')
+
+            //Listas Laterais
+            ItemLateral.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral2.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral3.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral4.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral5.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+            ItemLateral6.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'mana-lateral', 'noita-lateral')
+
+            ItemLateral.classList.add('dark-lateral')
+            ItemLateral2.classList.add('dark-lateral')
+            ItemLateral3.classList.add('dark-lateral')
+            ItemLateral4.classList.add('dark-lateral')
+            ItemLateral5.classList.add('dark-lateral')
+            ItemLateral6.classList.add('dark-lateral')
+
+            //Rodape
+            Rodape.classList.remove('dead', 'moon', 'enter', 'mana', 'noita')
+            Rodape.classList.add('dark')
+            break
+        case 4:
+            //Barra de Navegação
+            Nav.classList.remove('dead', 'moon', 'enter', 'dark', 'noita')
+            Nav.classList.add('mana')
+
+            //Listas Laterais
+            ItemLateral.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+            ItemLateral2.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+            ItemLateral3.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+            ItemLateral4.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+            ItemLateral5.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+            ItemLateral6.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'noita-lateral')
+
+            ItemLateral.classList.add('mana-lateral')
+            ItemLateral2.classList.add('mana-lateral')
+            ItemLateral3.classList.add('mana-lateral')
+            ItemLateral4.classList.add('mana-lateral')
+            ItemLateral5.classList.add('mana-lateral')
+            ItemLateral6.classList.add('mana-lateral')
+
+            //Rodape
+            Rodape.classList.remove('dead', 'moon', 'enter', 'dark', 'noita')
+            Rodape.classList.add('mana')
+            break
+        case 5:
+            //Barra de Navegação
+            Nav.classList.remove('dead', 'moon', 'enter', 'dark', 'mana')
+            Nav.classList.add('noita')
+
+            //Listas Laterais
+            ItemLateral.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+            ItemLateral2.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+            ItemLateral3.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+            ItemLateral4.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+            ItemLateral5.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+            ItemLateral6.classList.remove('dead-lateral', 'moon-lateral', 'enter-lateral', 'dark-lateral', 'mana-lateral')
+
+            ItemLateral.classList.add('noita-lateral')
+            ItemLateral2.classList.add('noita-lateral')
+            ItemLateral3.classList.add('noita-lateral')
+            ItemLateral4.classList.add('noita-lateral')
+            ItemLateral5.classList.add('noita-lateral')
+            ItemLateral6.classList.add('noita-lateral')
+
+            //Rodape
+            Rodape.classList.remove('dead', 'moon', 'enter', 'dark', 'mana')
+            Rodape.classList.add('noita')
             break
     }
 

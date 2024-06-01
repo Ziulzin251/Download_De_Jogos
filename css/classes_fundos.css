@@ -1,6 +1,6 @@
 /*Classes
 ----------------------*/
-.forager, .reven, .punch, .stardew, .hollow, .messenger, .dead, .moon{
+.forager, .reven, .punch, .stardew, .hollow, .messenger, .dead, .moon, .enter, .dark, .mana, .noita, .rain, .blas, .blood{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.509);
 }
 
@@ -119,7 +119,7 @@
 
 /*Classes Laterais
 ----------------------*/
-.forager-lateral, .reven-lateral, .punch-lateral, .stardew-lateral, .hollow-lateral, .messenger-lateral, .dead-lateral, .moon-lateral{
+.forager-lateral, .reven-lateral, .punch-lateral, .stardew-lateral, .hollow-lateral, .messenger-lateral, .dead-lateral, .moon-lateral, .enter-lateral, .dark-lateral, .mana-lateral, .noita-lateral, .rain-lateral, .blas-lateral, .blood-lateral{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.509);
 }
 

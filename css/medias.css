@@ -87,6 +87,22 @@
         background: url(../imagens/Fundos_Mobile/mobile_Moon.png);
     }
 
+    div.roguelike3{
+        width: 420px;
+    }
+
+    div.roguelike4{
+        width: 420px;
+    }
+
+    div.roguelike5{
+        width: 420px;
+    }
+
+    div.roguelike6{
+        width: 420px;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -150,6 +166,22 @@
     div.roguelike2{
         width: 420px;
     }
+
+    div.roguelike3{
+        width: 420px;
+    }
+
+    div.roguelike4{
+        width: 420px;
+    }
+
+    div.roguelike5{
+        width: 420px;
+    }
+
+    div.roguelike6{
+        width: 420px;
+    }
     
 }
 
@@ -208,6 +240,22 @@
         width: 570px;
     }
 
+    div.roguelike3{
+        width: 570px;
+    }
+
+    div.roguelike4{
+        width: 570px;
+    }
+
+    div.roguelike5{
+        width: 570px;
+    }
+
+    div.roguelike6{
+        width: 570px;
+    }
+
 }
 
 
@@ -262,6 +310,22 @@
     }
 
     div.roguelike2{
+        width: 770px;
+    }
+
+    div.roguelike3{
+        width: 770px;
+    }
+
+    div.roguelike4{
+        width: 770px;
+    }
+
+    div.roguelike5{
+        width: 770px;
+    }
+
+    div.roguelike6{
         width: 770px;
     }
 

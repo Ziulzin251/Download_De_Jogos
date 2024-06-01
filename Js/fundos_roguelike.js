@@ -4,6 +4,10 @@ document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Dead_
 //Barra Lateral Inicial
 document.getElementById('item-lateral').classList.add('dead-lateral')
 document.getElementById('item-lateral2').classList.add('dead-lateral')
+document.getElementById('item-lateral3').classList.add('dead-lateral')
+document.getElementById('item-lateral4').classList.add('dead-lateral')
+document.getElementById('item-lateral5').classList.add('dead-lateral')
+document.getElementById('item-lateral6').classList.add('dead-lateral')
 
 //Variaveis
 var Nav = document.getElementById('principal')
@@ -11,6 +15,10 @@ var Rodape = document.getElementById('rodape')
 
 var ItemLateral = document.getElementById('item-lateral')
 var ItemLateral2 = document.getElementById('item-lateral2')
+var ItemLateral3 = document.getElementById('item-lateral3')
+var ItemLateral4 = document.getElementById('item-lateral4')
+var ItemLateral5 = document.getElementById('item-lateral5')
+var ItemLateral6 = document.getElementById('item-lateral6')
 
 var x = 0
 
@@ -41,6 +49,10 @@ function FundoVai(){
             //Listas Laterais
             ItemLateral.classList.toggle('dead-lateral')
             ItemLateral2.classList.toggle('dead-lateral')
+            ItemLateral3.classList.toggle('dead-lateral')
+            ItemLateral4.classList.toggle('dead-lateral')
+            ItemLateral5.classList.toggle('dead-lateral')
+            ItemLateral6.classList.toggle('dead-lateral')
 
             //Rodape
             Rodape.classList.toggle('dead')
@@ -52,6 +64,10 @@ function FundoVai(){
             //Listas Laterais
             ItemLateral.classList.toggle('moon-lateral')
             ItemLateral2.classList.toggle('moon-lateral')
+            ItemLateral3.classList.toggle('moon-lateral')
+            ItemLateral4.classList.toggle('moon-lateral')
+            ItemLateral5.classList.toggle('moon-lateral')
+            ItemLateral6.classList.toggle('moon-lateral')
 
             //Rodape
             Rodape.classList.toggle('moon')
@@ -87,9 +103,19 @@ function FundoVem(){
             //Listas Laterais
             ItemLateral.classList.remove('moon-lateral')
             ItemLateral2.classList.remove('moon-lateral')
+            ItemLateral3.classList.remove('moon-lateral')
+            ItemLateral4.classList.remove('moon-lateral')
+            ItemLateral5.classList.remove('moon-lateral')
+            ItemLateral6.classList.remove('moon-lateral')
+
 
             ItemLateral.classList.add('dead-lateral')
             ItemLateral2.classList.add('dead-lateral')
+            ItemLateral3.classList.add('dead-lateral')
+            ItemLateral4.classList.add('dead-lateral')
+            ItemLateral5.classList.add('dead-lateral')
+            ItemLateral6.classList.add('dead-lateral')
+
 
             //Rodape
             Rodape.classList.remove('moon')
@@ -103,9 +129,17 @@ function FundoVem(){
             //Listas Laterais
             ItemLateral.classList.remove('dead-lateral')
             ItemLateral2.classList.remove('dead-lateral')
+            ItemLateral3.classList.remove('dead-lateral')
+            ItemLateral4.classList.remove('dead-lateral')
+            ItemLateral5.classList.remove('dead-lateral')
+            ItemLateral6.classList.remove('dead-lateral')
 
             ItemLateral.classList.add('moon-lateral')
             ItemLateral2.classList.add('moon-lateral')
+            ItemLateral3.classList.add('moon-lateral')
+            ItemLateral4.classList.add('moon-lateral')
+            ItemLateral5.classList.add('moon-lateral')
+            ItemLateral6.classList.add('moon-lateral')
 
             //Rodape
             Rodape.classList.remove('dead')
@@ -131,9 +165,17 @@ function FundoDead(){
 
     ItemLateral.classList.remove('moon-lateral')
     ItemLateral2.classList.remove('moon-lateral')
+    ItemLateral3.classList.remove('moon-lateral')
+    ItemLateral4.classList.remove('moon-lateral')
+    ItemLateral5.classList.remove('moon-lateral')
+    ItemLateral6.classList.remove('moon-lateral')
 
     ItemLateral.classList.add('dead-lateral')
     ItemLateral2.classList.add('dead-lateral')
+    ItemLateral3.classList.add('dead-lateral')
+    ItemLateral4.classList.add('dead-lateral')
+    ItemLateral5.classList.add('dead-lateral')
+    ItemLateral6.classList.add('dead-lateral')
 
     //Rodape
     Rodape.classList.remove('moon')
@@ -155,9 +197,17 @@ function FundoMoon(){
 
     ItemLateral.classList.remove('dead-lateral')  
     ItemLateral2.classList.remove('dead-lateral')
+    ItemLateral3.classList.remove('dead-lateral')
+    ItemLateral4.classList.remove('dead-lateral')
+    ItemLateral5.classList.remove('dead-lateral')
+    ItemLateral6.classList.remove('dead-lateral')
 
     ItemLateral.classList.add('moon-lateral')
     ItemLateral2.classList.add('moon-lateral')
+    ItemLateral3.classList.add('moon-lateral')
+    ItemLateral4.classList.add('moon-lateral')
+    ItemLateral5.classList.add('moon-lateral')
+    ItemLateral6.classList.add('moon-lateral')
 
     //Rodape
     Rodape.classList.remove('dead')

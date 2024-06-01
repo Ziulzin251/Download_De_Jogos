@@ -95,5 +95,38 @@ div.roguelike2{
     background-position: center;
 }
 
+div.roguelike3{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/roguelikes/Enter.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.roguelike4{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/roguelikes/Darkest.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+div.roguelike5{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/roguelikes/Mana.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+div.roguelike6{
+    width: 920px;
+    height: 650px;
+    background: url(../imagens/roguelikes/Noita.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
 /*Rodape
 ----------------------------*/

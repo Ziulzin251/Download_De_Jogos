@@ -61,18 +61,27 @@ function FundoVai(){
     switch(x){
         case 0:
             //Barra de Navegação
-            Nav.classList.toggle('hollow')
+            Nav.classList.remove('messenger', 'blood', 'ori', 'blas', 'rain')
+            Nav.classList.add('hollow')
 
             //Listas Laterais
-            ItemLateral.classList.toggle('hollow-lateral')
-            ItemLateral2.classList.toggle('hollow-lateral')
-            ItemLateral3.classList.toggle('hollow-lateral')
-            ItemLateral4.classList.toggle('hollow-lateral')
-            ItemLateral5.classList.toggle('hollow-lateral')
-            ItemLateral6.classList.toggle('hollow-lateral')
+            ItemLateral.classList.remove('messenger-lateral', 'blood-lateral', 'ori-lateral', 'blas-lateral', 'rain-lateral')
+            ItemLateral2.classList.remove('messenger-lateral', 'blood-lateral', 'ori-lateral', 'blas-lateral', 'rain-lateral')
+            ItemLateral3.classList.remove('messenger-lateral', 'blood-lateral', 'ori-lateral', 'blas-lateral', 'rain-lateral')
+            ItemLateral4.classList.remove('messenger-lateral', 'blood-lateral', 'ori-lateral', 'blas-lateral', 'rain-lateral')
+            ItemLateral5.classList.remove('messenger-lateral', 'blood-lateral', 'ori-lateral', 'blas-lateral', 'rain-lateral')
+            ItemLateral6.classList.remove('messenger-lateral', 'blood-lateral', 'ori-lateral', 'blas-lateral', 'rain-lateral')
+
+            ItemLateral.classList.add('hollow-lateral')
+            ItemLateral2.classList.add('hollow-lateral')
+            ItemLateral3.classList.add('hollow-lateral')
+            ItemLateral4.classList.add('hollow-lateral')
+            ItemLateral5.classList.add('hollow-lateral')
+            ItemLateral6.classList.add('hollow-lateral')
 
             //Rodape
-            Rodape.classList.toggle('hollow')
+            Rodape.classList.remove('blood', 'messenger', 'ori', 'blas', 'rain')
+            Rodape.classList.add('hollow')
             break
         case 1:
             //Barra de Navegação

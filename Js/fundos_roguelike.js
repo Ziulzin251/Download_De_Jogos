@@ -39,6 +39,22 @@ function FundoVai(){
             //Fundo
             document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Moonlighter.jpg)'
             break
+        case 2:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Enter.jpg)'
+            break
+        case 3:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Darkest.jpg)'
+            break
+        case 4:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Mana.jpg)'
+            break
+        case 5:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Noita.jpg)'
+            break
     }
 
     switch(x){
@@ -91,6 +107,22 @@ function FundoVem(){
         case 1:
             //Fundo
             document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Moonlighter.jpg)'
+            break
+        case 2:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Enter.jpg)'
+            break
+        case 3:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Darkest.jpg)'
+            break
+        case 4:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Mana.jpg)'
+            break
+        case 5:
+            //Fundo
+            document.body.style.backgroundImage = 'url(../imagens/Background_Roguelike/Noita.jpg)'
             break
     }
 
@@ -212,4 +244,20 @@ function FundoMoon(){
     //Rodape
     Rodape.classList.remove('dead')
     Rodape.classList.add('moon')
+}
+
+function FundoEnter(){
+    
+}
+
+function FundoDark(){
+    
+}
+
+function FundoMana(){
+    
+}
+
+function FundoNoita(){
+    
 }
